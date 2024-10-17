@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <ul>
+            <li><a class="search-tag" href="">Search</a></li>
+            <li><a class="categories-tag" href="">Categories</a></li>
+            <li><a class="area-tag" href="">Area</a></li>
+            <li><a class="ingredients-tag" href="">Ingredients</a></li>
+            <li><a class="contact-tag" href="">Contact Us</a></li>
+        </ul>
+
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+            <p>Copyright Â© 2019 All Rights
+                Reserved.</p>
+        </div>
+
+
+    </div>
+
+    <div class="sidebar-extend">
+        <img class="site-logo" src="images/logo.png" alt="">
+        <i class="bars fa-solid fa-bars"></i>
+        <div class="icons">
+            <i class=" fa-solid fa-globe"></i>
+            <i class=" fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+
+    <section id="form">
+<div class="container mt-5  pt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                
+                <input oninput="inputValidation(this)" type="email" class="form-control " id="userName" placeholder="Enter Your Name">
+                <div class="d-none alert alert-danger">At Least 3 Characters</div>
+            </div>
+             
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                
+                <input oninput="inputValidation(this)" type="email" class="form-control " id="userEmail" placeholder="Enter Your Email">
+                <div class="d-none alert alert-danger">Enter a Valid Email Address</div>
+            </div>
+              
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                
+                <input oninput="inputValidation(this)" type="email" class="form-control " id="userPhone" placeholder="Enter Your Phone">
+                <div class="d-none alert alert-danger">Enter a Valid Phone Number</div>
+            </div>
+              
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                
+                <input oninput="inputValidation(this)" type="email" class="form-control " id="userAge" placeholder="Enter Your Age">
+                <div class="d-none alert alert-danger">Enter Your Age</div>
+            </div>
+              
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                
+                <input oninput="inputValidation(this)" type="email" class="form-control " id="userPassword" placeholder="Password">
+                <div class="d-none alert alert-danger">Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
+            </div>
+              
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                
+                <input oninput="inputValidation(this)" type="email" class="form-control " id="userRepassword" placeholder="repassword">
+                <div class="d-none alert alert-danger">Enter Your Password Again</div>
+            </div>
+             
+        </div>
+
+        <button type="button" class="btn btn-outline-danger my-btn disabled ">Submit</button>
+    </div>
+</div>
+    </section>
+
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
